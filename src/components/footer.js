@@ -23,9 +23,9 @@ function footer() {
 				</ul>
 				<span className="stay">Stay Connected</span>
 				<ul className="social">
-					<a href="" style={{backgroundColor : "#2489BE"}}><FaLinkedinIn /></a>
-					<a href="" style={{backgroundColor : "#2DAAE1"}}><FaTwitter /></a>
-					<a href="" style={{backgroundColor : "#3C5A9A"}}><FaFacebookF /></a>
+					<a style={{backgroundColor : "#2489BE"}}><FaLinkedinIn /></a>
+					<a  style={{backgroundColor : "#2DAAE1"}}><FaTwitter /></a>
+					<a  style={{backgroundColor : "#3C5A9A"}}><FaFacebookF /></a>
 				</ul>
 				<p className=""></p>
 			</div>

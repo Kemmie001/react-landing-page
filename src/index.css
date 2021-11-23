@@ -54,7 +54,7 @@
   font-family: Poppins;
   font-size: 3.4vw;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 4vw;
   padding-bottom: 1.5rem;
 }
@@ -70,7 +70,7 @@
 
 .banner button {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 5px;
@@ -99,7 +99,7 @@
   font-family: Poppins;
   font-size: 3vw;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 4vw;
   margin-bottom: 1%;
 }
