@@ -27,7 +27,13 @@ function footer() {
 					<a  style={{backgroundColor : "#2DAAE1"}}><FaTwitter /></a>
 					<a  style={{backgroundColor : "#3C5A9A"}}><FaFacebookF /></a>
 				</ul>
-				<p className=""></p>
+				<div className="footer-copy">
+				<p className="">
+				© 2010 — 2020
+				</p>
+				<a href="#" className="">Privacy — Terms</a>
+				<a href="#" className="">FAQSs</a>
+				</div>
 			</div>
 		</div>
 	)
