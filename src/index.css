@@ -13,33 +13,36 @@
 }
 
 /* Navigation */
-
-.nav{
-  display: none;
+.mob-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
+/* .nav{
+  /* display: none; 
+  position: relative;
+} */
 .nav-img{
-  width: 8%;
+  width: 100px;
 }
 
 .nav-img img{
   width: 100%;
 }
 
-.nav ul{
-  display: flex;
-  list-style-type: none;
-  align-self: center;
+.sidebar-backdrop ul li{
+  margin-top: 3rem;
 }
 
-.nav ul li{
+.sidebar-backdrop ul li a{
   color: #ffffff;
-  padding: 0 3rem;
-  font-size: 15px;
-  line-height: 22.5px;
+  font-size: 20px;
+  line-height: 28px;
   cursor: pointer;
+  font-weight: 400;
 }
 
-.nav ul li a:focus{
+.sidebar-backdrop ul li a:active{
   font-size: 20px;
   color: #9E7BA4;
 }
@@ -92,6 +95,7 @@
 .container{
   margin-bottom: 6%;
   text-align: center;
+  margin-top: 4%;
 }
 
 .header1{
@@ -391,14 +395,41 @@
   line-height: 18px;
   padding: 0 0.5rem;
   text-decoration: none;
-
+  margin-top: 1rem;
 }
 
 @media screen and (min-width:768px) {
   .nav{
   display: flex;
   justify-content: space-between;
-  padding-top: 1%;
+  width: 100%;
+  }
+  .bar{
+    display: none;
+  }
+  .nav-img{
+    margin-top: 1rem;
+  }
+
+  .nav-img img{
+    width: 100px;
+  }
+  .sidebar-backdrop ul{
+  display: flex;
+  list-style-type: none;
+  background-color: transparent;
+  align-self: center;
+  height: 0;
+  padding: 0;
+  padding-top: 1.5rem;
+  }
+  .sidebar-backdrop ul li{
+    margin-top: 0;
+  }
+
+  .sidebar-backdrop ul li a{
+    margin-top: 0;
+    padding: 0 1rem;
   }
 
   .banner h1{
@@ -455,6 +486,32 @@
 
 }
 
-@media screen and (min-width:1024) {
-  
+@media screen and (min-width:1026px){
+.container{
+  margin-top: 0;
 }
+}
+
+@media screen and (max-width:768px) {
+.nav .sidebar-backdrop ul{
+  position: fixed;
+  list-style-type: none;
+  background-color: #04050E;
+  height: 100vh;
+  width: 40%;
+  right: 0;
+  left: 0;
+  padding: 4%;
+}
+
+.sidebar-backdrop {
+  background-color: rgba(0,0,0,0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+}
+
