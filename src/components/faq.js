@@ -22,25 +22,31 @@ const Faq = () => {
 	return (
 		<div>
 			<div className="faq">
-				<h1 className="">Frequently asked questions</h1>
+				<h1 className="header1">Frequently asked questions</h1>
 				<div className="faq-container">
-					<div className="faq-card style">
-						<h1>What cryptocurrency can I purchase</h1>
+					<div className="faq-card">
+						<h3>What cryptocurrency can I purchase</h3>
 						<span>
-							<img src={question}alt="" />
+							<img src={question}alt="" style={{width: '25px'}} />
 						</span>
 					</div>
 					<div className="faq-card">
-						<h1>What cryptocurrency can I purchase</h1>
-						<img src={question}alt="" />
+						<h3>What cryptocurrency can I purchase</h3>
+						<span>
+							<img src={question}alt="" style={{width: '25px'}} />
+						</span>
 					</div>
 					<div className="faq-card">
-						<h1>What cryptocurrency can I purchase</h1>
-						<img src={question}alt="" />
+						<h3>What cryptocurrency can I purchase</h3>
+						<span>
+							<img src={question}alt="" style={{width: '25px'}} />
+						</span>
 					</div>
 					<div className="faq-card">
-						<h1>What cryptocurrency can I purchase</h1>
-						<img src={question}alt="" />
+						<h3>What cryptocurrency can I purchase</h3>
+						<span>
+							<img src={question}alt="" style={{width: '25px'}} />
+						</span>
 					</div>
 					
 				</div>

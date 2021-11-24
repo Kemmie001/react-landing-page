@@ -127,7 +127,7 @@
   justify-content: left;
   font-size: 18px;
   padding: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .service-list:hover{
@@ -216,11 +216,6 @@
   /* background-attachment: fixed; */
 }
 .faq > h1{
-  font-family: Poppins;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 48px;
   color: #D43DE3;
   margin-bottom: 4%;
   gap: 2rem;
@@ -267,14 +262,6 @@
   color: #ffffff;
   text-align: center;
   padding: 6% 0;
-}
-
-.subscribe h1{
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 50px;
-  margin-bottom: 1%;
 }
 
 .subscribe p{
@@ -494,6 +481,38 @@
 }
 
 @media screen and (max-width:768px) {
+  .banner h1{
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px;
+}
+
+.banner p{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+.header1{
+  color: #FF02E6;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 1%;
+}
+
+.container p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ffffff;
+}
 .nav .sidebar-backdrop ul{
   position: fixed;
   list-style-type: none;
