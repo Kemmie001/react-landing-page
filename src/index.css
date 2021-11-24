@@ -124,9 +124,10 @@
 .service-list{
   color: #ffffff;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-size: 18px;
   padding: 0.5rem;
+  margin-top: 1rem;
 }
 
 .service-list:hover{
@@ -502,6 +503,12 @@
   right: 0;
   left: 0;
   padding: 4%;
+}
+.bar{
+  position: fixed;
+  top: 20;
+  right: 10px;
+  z-index: 100;
 }
 
 .sidebar-backdrop {
